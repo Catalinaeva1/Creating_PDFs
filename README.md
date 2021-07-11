@@ -8,7 +8,7 @@ Download the zip file and upload it to your editor, or open your editor's termin
 
 If you run the git clone command, navigate/change directory into the file folder.
 
-1. Make sure that you have Node.js installed.
+1. Make sure that you have the latest Node.js installed.
 2. Open 2 terminals in bash/node (make sure you aren't in Powershell).
 3. In the first terminal, cd (change directory) to client (e.g. cd client).
 4. In the second terminal, cd (change directory) to server (e.g. cd server).
