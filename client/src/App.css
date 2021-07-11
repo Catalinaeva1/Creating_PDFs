@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  
+}
+a {
+  text-decoration: none;
+}
+body {
+  /* background: #D8D8D8; */
+  scrollbar-width: auto;          /* "auto" or "thin" */
+  scrollbar-color: purple blue;   /* scroll thumb and track */
+}
+body::-webkit-scrollbar {
+  width: 20px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: blue;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: purple;    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+  border: 3px solid blue;  /* creates padding around scroll thumb */
+}
+.Sidebar {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* width: 200px; */
+  /* background-color: #fff; */
+  background-color: transparent;
+  position: fixed !important;
+  /* z-index: 1; */
+  overflow: auto;
+}
+input {
+	margin-bottom: 15px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Banner.ex1{
+	color: white;
+	background-color: blue;
+	background: url('img/banner.jpg');
+  background-size: contain;
+  background-size: cover;
+	height: 279px;
+}
+.Banner.ex2{
+	color: white;
+	background-color: blue;
+	background: url('img/banner2.jpg');
+  background-size: contain;
+  background-size: cover;
+	height: 279px;
+}
+.Banner.ex3{
+	color: white;
+	background-color: blue;
+	background: url('img/banner3.jpg');
+  background-size: contain;
+  background-size: cover;
+	height: 279px;
+}
+.Banner h1 {
+	color: white;
+	text-align-last: right;
+	padding-top: 5rem;
+  padding-right: 2rem;
+}
+button {
+	color: white;
+	background-color: blue;
+	border-radius: 15px;
+	width: 200px;
+	padding: 5px;
+}
+.wrapper{
+  padding-bottom: 2.5rem;
+  display: flex;
+  /* flex-direction: column; */
+}
+.main-content{
+  margin-left:35%; 
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper p {
+  font-style: bold;
+  text-align: left;
+}
+.button-align {
+	text-align: right;
+}
+.Footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5.5rem;
+	background-color: black;
+	color: white;
+	padding: 2rem;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:700px) {
+  .wrapper {
+    padding: 25px;
+    flex-direction: column;
+  }
+  
+}
+@media (max-width:500px) {
+  .Banner h1 {
+    color: white;
+    width:100%;
+  }
+  .Banner.ex1, .Banner.ex2, .Banner.ex3 {
+    background:url('img//banner3.jpg');
+    background-size: contain;
+    background-size: cover;
+  }
+  .Sidebar{
+    position: relative !important;
+    width:100%;
+  }
+  .main-content {
+    margin: 0;
+  }
+}
