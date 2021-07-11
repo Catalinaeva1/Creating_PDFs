@@ -165,5 +165,6 @@ button {
   }
   .main-content {
     margin: 0;
+    padding:8px;
   }
 }
