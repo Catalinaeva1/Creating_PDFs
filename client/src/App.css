@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 body {
-  /* background: #D8D8D8; */
+  background: #D8D8D8; 
   scrollbar-width: auto;          /* "auto" or "thin" */
   scrollbar-color: purple blue;   /* scroll thumb and track */
 }
